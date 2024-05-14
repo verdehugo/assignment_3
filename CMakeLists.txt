@@ -6,6 +6,6 @@ project(Machine_Vending)
 
 target_sources(app PRIVATE app/main.c)
 
-target_sources(app PRIVATE src/main.c ../VendMachine/src-gen/VM.c)
+target_sources(app PRIVATE app/main.c ../VendMachine/src-gen/VM.c)
 
 target_include_directories(app PRIVATE ../VendMachine/src-gen ../VendMachine/src)
